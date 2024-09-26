@@ -38,7 +38,7 @@ This is a simple Todo application built using React and Vite. It fetches todo it
 
 3. Install Dependencies
 
-- Make sure you have Node.js installed. Then run:
+Make sure you have Node.js installed. Then run:
 
 ```npm install
 
@@ -46,7 +46,7 @@ This is a simple Todo application built using React and Vite. It fetches todo it
 
 4. Run the Application
 
-- Start the development server with:
+Start the development server with:
 
 ```npm run dev
 
