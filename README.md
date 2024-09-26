@@ -40,16 +40,16 @@ This is a simple Todo application built using React and Vite. It fetches todo it
 
 Make sure you have Node.js installed. Then run:
 
-```npm install
-
+```
+npm install
 ```
 
 4. Run the Application
 
 Start the development server with:
 
-```npm run dev
-
+```
+npm run dev
 ```
 
 Open your browser and navigate to http://localhost:3000 (or the port specified in your terminal).
