@@ -6,53 +6,45 @@ This is a simple Todo application built using React and Vite. It fetches todo it
 
 <ul>
 <li> Fetches todo items from an API
-<li>
+</li>
 <li> Displays a list of todos
-<li>
+</li>
 <li>Shows detailed information about each todo in a dialog box
-<li>
+</li>
 <li>Handles loading and error states
-<li>
+</li>
 </ul>
 
 ### Technologies Used
 
 <ul>
 <li> React
-<li>
+</li>
 <li> Vite
-<li>
+</li>
 <li>Material-UI (MUI)
-<li>
+</li>
 <li>JavaScript (ES6+)
-<li>
+</li>
 </ul>
 
 ## Installation Steps
 
-<ul>
-<li>
-Clone the Repository
-```git clone https://github.com/yourusername/todo-simple-project.git
-```
-</li>
-<li>
-Navigate to the Project Directory
-```cd todo-simple-project
- ```
-</li>
+1. Clone the Repository
+   `git clone https://github.com/yourusername/todo-simple-project.git`
 
-<li>
-Install Dependencies
+2. Navigate to the Project Directory
+   `cd todo-simple-project`
+
+3. Install Dependencies
+
 - Make sure you have Node.js installed. Then run:
 
 ```npm install
 
 ```
 
-</li>
-<li>
-Run the Application
+4. Run the Application
 
 - Start the development server with:
 
@@ -60,8 +52,6 @@ Run the Application
 
 ```
 
-</li>
-</ul>
 Open your browser and navigate to http://localhost:3000 (or the port specified in your terminal).
 
 ## Project Structure
@@ -69,8 +59,10 @@ Open your browser and navigate to http://localhost:3000 (or the port specified i
 ```todo-simple-project/
 ├── src/
 │   ├── components/
-│   │   ├── todo-details.jsx      // Dialog box for todo details
-│   │   └── todo-items.jsx        // Individual todo item component
+│   │   ├── todo-details
+            ├── index.jsx     // Dialog box for todo details
+│   │   └── todo-items
+            ├── index.jsx      // Individual todo item component
 │   └── App.jsx                   // Main application component
 ├── public/
 │   └── index.html                // Main HTML file
